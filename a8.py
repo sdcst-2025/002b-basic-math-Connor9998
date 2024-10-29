@@ -1,5 +1,5 @@
 #!python3
-
+import math
 '''
 ##### Task 8
 Read through the file **example2.py** for information on using the math module.
@@ -14,3 +14,9 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+a = 4
+b = 8
+m = math.pow(a,2)+ math.pow(b,2)
+
+L =math.sqrt(m)
+print(L)
